@@ -267,26 +267,6 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-.home-container .home-scroll-button {
-  color: var(--first-color);
-  transition: 0.3s;
-}
-
-.home-container .home-scroll-button:hover {
-  transform: translateY(0.25rem);
-}
-
-.home-container .home-scroll-button-name {
-  font-size: var(--small-font-size);
-  color: var(--title-color);
-  font-weight: var(--font-medium);
-  margin-right: var(--mb-0-25);
-}
-
-.home-container .home-scroll-button-arrow {
-  font-size: 1.25rem;
-}
-
 /* BUTTONS */
 .button {
   display: inline-block;
@@ -343,6 +323,7 @@ img {
 }
 
 .about-container-imgAlt {
+  /* width: 100%; */
   width: 265px;
   border-radius: .5rem;
 }
@@ -826,8 +807,9 @@ img {
   .about-container-imgAlt,
   .portfolio-content-imgAlt,
   .project-container-imgAlt {
-    width: 225px;
-    height: 185px;
+    width: 225px; 
+    /* height: 185px; */
+    /* width: 70%; */
     align-self: center;
     margin-top: 25px;
   }
@@ -938,7 +920,7 @@ img {
   }
   .about-container-imgAlt {
     width: 350px;
-    height: 250px;
+    /* height: 250px; */
   }
   .about-container-data-description {
     text-align: initial;
