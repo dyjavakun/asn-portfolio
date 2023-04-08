@@ -4,7 +4,6 @@
 :root {
   --header-height: 3rem;
   /* Colors */
-  
   --hue-color: 230;
 
   /* HSL color mode */
@@ -20,8 +19,10 @@
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+
   /* Font and typography */
   --body-font: "Poppins", sans-serif;
+
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -30,9 +31,11 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
+
   /* Font weight */
   --font-medium: 500;
   --font-semi-bold: 600;
+
   /* Margins Bottom */
   /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
   --mb-0-25: 0.25rem;
@@ -43,11 +46,11 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
+  
   /* z index */
   --z-tooltip: 99;
   --z-fixed: 999;
   --z-modal: 9999;
-  /* Dark theme */
 }
 
 /* Font size for large devices */
